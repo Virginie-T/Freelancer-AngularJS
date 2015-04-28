@@ -12,4 +12,6 @@ app.controller('ImageCtrl', function ImageCtrl($scope, $state) {
   $scope.carImage4 = $scope.imageLinks.carImage4;
   $scope.carImage5 = $scope.imageLinks.carImage5;
   $scope.carImage6 = $scope.imageLinks.carImage6;
+
+  $scope.thisColor = "color";
 });

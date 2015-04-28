@@ -28,4 +28,24 @@ header {
 img {
   width: 200px;
   height: 100px;
+  margin-top: 30px;
+
+}
+
+.color {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: red;
+  opacity:0.5;
+  margin-top: 30px;
+}
+
+.color2 {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: blue;
+  opacity:0.5;
+  margin-top: 30px;
 }
