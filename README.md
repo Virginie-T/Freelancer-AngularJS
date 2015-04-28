@@ -1,3 +1,4 @@
+# (practice directives - NOT A REAL PROJECT)
 # Freelancer Clone in AngularJS for Epicodus
 ## by Daniel Toader and Virginie Trubiano
 ### Date: April 25, 2015
