@@ -24,3 +24,8 @@ header {
   height: 50px;
   margin-top: 15px;
 }
+
+img {
+  width: 200px;
+  height: 100px;
+}
