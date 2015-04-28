@@ -8,12 +8,16 @@ app.config(function($stateProvider) {
 });
 
 app.directive('enter', function() {
-  return function (scope, element) {
+  return function (scope, element, attr) {
     element.bind('mouseenter', function() {
-      console.log(scope.imageLink);
-      scope.imageLink = "img/freelancer-logo.png";
+      var image = attr.ngModel;
+      scope[image] = scope.imageLinks.dark;
       scope.$apply();
-      console.log(scope.imageLink);
+    });
+    element.bind('mouseleave', function() {
+      var image = attr.ngModel;
+      scope[image]= scope.imageLinks.car1;
+      scope.$apply();
     });
   };
 });
