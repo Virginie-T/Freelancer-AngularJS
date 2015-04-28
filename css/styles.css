@@ -49,3 +49,7 @@ img {
   opacity:0.5;
   margin-top: 30px;
 }
+
+.text {
+  display: none;
+}
