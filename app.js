@@ -16,7 +16,7 @@ app.directive('enter', function() {
     });
     element.bind('mouseleave', function() {
       var image = attr.ngModel;
-      scope[image]= scope.imageLinks.car1;
+      scope[image]= scope.imageLinks[image];
       scope.$apply();
     });
   };
